@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+
+  background-color: $uoc-bg;
+  color: $uoc-corporate;
+}
+
+.nav-el {
+  @apply block py-2 pl-3 pr-4 text-black hover:text-blue-100 font-bold;
+}
+
+.form-el{
+  @apply appearance-none block w-full bg-white text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500
+}
